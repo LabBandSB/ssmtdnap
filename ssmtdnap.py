@@ -26,9 +26,6 @@ example:
     # submit scripts to workload manager
 
     cd ~/projects/KAZ_WG/KAZ_WG_hg19/scripts/; for i in $( ls *.ss.sh ); do qsub $i; done
-
-    # optional: generate config with --run_annovar key
-
 """
 __VERSION__ = "0.0.4"
 
